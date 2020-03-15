@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="client-combined-3.141.59-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/selenium-jars/client-combined-3.141.59.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/selenium-jars/libs/byte-buddy-1.8.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/selenium-jars/libs/commons-exec-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/selenium-jars/libs/guava-25.0-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/selenium-jars/libs/okhttp-3.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/selenium-jars/libs/okio-1.14.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-17.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/selenium-jars/client-combined-3.141.59-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
