@@ -1,5 +1,5 @@
 # Cariculus
-
+A usefull tool to create a cariculum for students in BEN GURION UNIVERSITY. Cariculus will present to you all the possible options so you can filter them according to your needs.<br/>
 # Oreview
 Add the courses to your couse list by typing the course number and press Add:<br/>
 
