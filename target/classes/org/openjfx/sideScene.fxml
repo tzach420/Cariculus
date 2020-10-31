@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="994.0" style="-fx-background-color: #3D4956;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.controllers.sideSceneController">
+   <children>
+      <AnchorPane fx:id="cariculum" layoutX="-1.0" prefHeight="593.0" prefWidth="755.0" style="-fx-background-color: #3D4956;">
+         <children>
+            <ScrollPane layoutY="97.0" prefHeight="496.0" prefWidth="755.0" style="-fx-background-color: #3D4956; -fx-border-color: #3D4956;">
+               <content>
+                  <GridPane fx:id="pane" alignment="CENTER" gridLinesVisible="true" prefHeight="563.0" prefWidth="840.0" style="-fx-background-color: #3D4956;">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label contentDisplay="TOP" text="Sunday" textFill="WHITE" GridPane.columnIndex="1" />
+                        <Label contentDisplay="TOP" text="Thursday" textFill="WHITE" GridPane.columnIndex="5" />
+                        <Label contentDisplay="TOP" text="Wednesday" textFill="WHITE" GridPane.columnIndex="4" />
+                        <Label contentDisplay="TOP" text="Tuesday" textFill="WHITE" GridPane.columnIndex="3" />
+                        <Label contentDisplay="TOP" text="Monday" textFill="WHITE" GridPane.columnIndex="2" />
+                        <Label contentDisplay="TOP" text="Friday" textFill="WHITE" GridPane.columnIndex="6" />
+                        <Label contentDisplay="TOP" text="         8:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="1" />
+                        <Label contentDisplay="TOP" text="         9:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="2" />
+                        <Label contentDisplay="TOP" text="         8:00" textAlignment="JUSTIFY" GridPane.rowIndex="12" />
+                        <Label contentDisplay="TOP" text="         18:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="11" />
+                        <Label contentDisplay="TOP" text="         17:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="10" />
+                        <Label contentDisplay="TOP" text="         16:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="9" />
+                        <Label contentDisplay="TOP" text="         15:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="8" />
+                        <Label contentDisplay="TOP" text="         14:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="7" />
+                        <Label contentDisplay="TOP" text="         13:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="6" />
+                        <Label contentDisplay="TOP" text="         12:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="5" />
+                        <Label contentDisplay="TOP" text="         11:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="4" />
+                        <Label contentDisplay="TOP" text="        10:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="3" />
+                        <Label contentDisplay="TOP" text="         19:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="12" />
+                        <Label contentDisplay="TOP" text="         20:00" textAlignment="JUSTIFY" textFill="WHITE" GridPane.rowIndex="13" />
+                     </children>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+            <Text fx:id="resultsText" fill="WHITE" layoutX="363.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1/100" />
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="415.0" layoutY="35.0" onMousePressed="#getPrevDisplay" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/icons8-arrow-left-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="447.0" layoutY="35.0" onMousePressed="#getNextDisplay" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/icons8-arrow-right-64.png" />
+               </image>
+            </ImageView>
+            <AnchorPane fx:id="loading" prefHeight="114.0" prefWidth="336.0" style="-fx-background-color: #3D4956;" visible="false" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="220.0">
+               <children>
+                  <Text fill="WHITE" layoutX="135.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filtering..." />
+                  <ProgressBar layoutX="68.0" layoutY="64.0" prefWidth="200.0" progress="0.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="errorMsg" layoutX="10.0" layoutY="10.0" prefHeight="114.0" prefWidth="336.0" style="-fx-background-color: #3D4956;" visible="false" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="220.0">
+               <children>
+                  <Text fill="WHITE" layoutX="100.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are no results!" />
+                  <Button fx:id="errorMsgBtn" layoutX="142.0" layoutY="63.0" mnemonicParsing="false" onAction="#closeErrorMsg" style="-fx-background-color: #da9816;" text="Return" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="753.0" layoutY="-2.0" prefHeight="599.0" prefWidth="242.0" style="-fx-background-color: #3D4956;">
+         <children>
+            <VBox fx:id="settings" layoutX="17.0" layoutY="96.0" prefHeight="503.0" prefWidth="242.0" spacing="20.0">
+               <children>
+                  <Text fill="LIGHTGREEN" strokeType="OUTSIDE" strokeWidth="0.0" text="lecture">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#da9816" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercise">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="DARKMAGENTA" strokeType="OUTSIDE" strokeWidth="0.0" text="Lab">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="sameGroup" mnemonicParsing="false" prefHeight="18.0" prefWidth="220.0" text="Choose from the same group" textFill="#da9816">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="noWindows" mnemonicParsing="false" prefHeight="18.0" prefWidth="220.0" text="No windows" textFill="#da9816">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </RadioButton>
+                  <Text fill="#da9816" strokeType="OUTSIDE" strokeWidth="0.0" text="Days off:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="sunday" mnemonicParsing="false" prefHeight="18.0" prefWidth="220.0" text="Sunday" textFill="#da9816">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="monday" mnemonicParsing="false" prefHeight="18.0" prefWidth="220.0" text="Monday" textFill="#da9816">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="tuesday" mnemonicParsing="false" prefHeight="18.0" prefWidth="220.0" text="Tuesday" textFill="#da9816">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="wednesday" mnemonicParsing="false" prefHeight="18.0" prefWidth="220.0" text="Wednesday" textFill="#da9816">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="thursday" mnemonicParsing="false" prefHeight="18.0" prefWidth="220.0" text="Thursday" textFill="#da9816">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="friday" mnemonicParsing="false" prefHeight="18.0" prefWidth="220.0" text="Friday" textFill="#da9816">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </RadioButton>
+                  <Button fx:id="filterBtn" mnemonicParsing="false" onAction="#filter" style="-fx-background-color: #da9816;" text="Filter" />
+               </children>
+            </VBox>
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="197.0" layoutY="14.0" onMousePressed="#returnToMain" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/icons8-arrow-right-64.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
