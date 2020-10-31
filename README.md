@@ -4,15 +4,15 @@ A usefull tool to create a cariculum for students in BEN GURION UNIVERSITY. Cari
 Add the courses to your couse list by typing the course number in the form xxx.x.xxx and press Add:<br/>
 
 
- <img src="./img/Screenshot from 2020-03-15 21-58-56.png"><br/>
+ <img src="./img/openScreen.png"><br/>
 After adding all the courses,<br/>
 
 
- <img src="./img/addingCourses.png"><br/>
+ <img src="./img/courseList.png"><br/>
  
  
   press the create button in order to see all the possible results:<br/>
-   <img src="./img/results.png"></br>
+   <img src="./img/resultList.png"></br>
 Now you can filter the results as you wish according to the filter menu to the right.
 # Compile
 1.Clone to project to your local computer.

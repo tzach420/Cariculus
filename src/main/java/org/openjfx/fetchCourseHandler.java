@@ -33,7 +33,7 @@ public class fetchCourseHandler {
         try {
             WebDriverManager.firefoxdriver().setup();
             FirefoxOptions options = new FirefoxOptions();
-            //options.setHeadless(true);
+            options.setHeadless(true);
             driver = new FirefoxDriver(options);
         }catch(Exception e){
 
