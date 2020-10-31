@@ -15,6 +15,7 @@ After adding all the courses,<br/>
    <img src="./img/resultList.png"></br>
 Now you can filter the results as you wish according to the filter menu to the right.
 # Compile
+Make sure you have maven installed.<br/>
 1.Clone to project to your local computer.<br/>
 2.Open the main folder in terminal.<br/>
 3.Type maven javafx:run<br/>
